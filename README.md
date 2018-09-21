@@ -15,7 +15,6 @@ https://twitter.com/Foone/status/1023422361729609728
 
 ```
 python3 decode.py
-
 ```
 
 Just run python3 decode.py, after copying setup.ini into the same folder.
