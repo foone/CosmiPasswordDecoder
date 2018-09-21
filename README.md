@@ -7,10 +7,22 @@ you wanted to install, but since the passwords are included in the setup.ini
 file in a simply encoded format, you can easily extract them with the this 
 tool.
 
+This is reverse engineered out of the original setup program. You can see a 
+rambling twitter thread about this here: 
+https://twitter.com/Foone/status/1023422361729609728
+
 # Usage
+
+```
+python3 decode.py
+
+```
 
 Just run python3 decode.py, after copying setup.ini into the same folder.
 it'll print out the passwords and also create results.csv containing them.
+
+Note: You can't run it from the base of the CD itself, cause it tries to write
+a file to the current directory. Sorry. I should fix that someday. 
 
 # Password algorithm
 
